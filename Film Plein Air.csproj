@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Film_Plein_Air</RootNamespace>
     <AssemblyName>Film Plein Air</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,22 +45,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -67,8 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap-4.6.0-dist\css\pages\actualites.css" />
     <Content Include="actualites.html" />
+    <Content Include="article01.html" />
+    <Content Include="css\bootstrap-4.6.0-dist\css\pages\actualites.css" />
     <Content Include="contact.html" />
     <Content Include="css\bootstrap-4.6.0-dist\css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\bootstrap-grid.min.css" />
@@ -76,13 +77,19 @@
     <Content Include="css\bootstrap-4.6.0-dist\css\bootstrap-reboot.min.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\bootstrap.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\bootstrap.min.css" />
+    <Content Include="css\bootstrap-4.6.0-dist\css\pages\article.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\pages\contact.css" />
+    <Content Include="css\bootstrap-4.6.0-dist\css\pages\Cookie.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\pages\index.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\pages\MenuetFooter.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\pages\Films.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\pages\Film.css" />
     <Content Include="Film01.html" />
     <Content Include="Films.html" />
+    <Content Include="img\actu1.png" />
+    <Content Include="img\actu2.jpg" />
+    <Content Include="img\actu3.jpg" />
+    <Content Include="img\actu4.jpg" />
     <Content Include="img\arrow-up-square.svg" />
     <Content Include="img\bg-time-hover.png" />
     <Content Include="img\bg-time.png" />
@@ -112,6 +119,8 @@
     <Content Include="Index.html" />
     <Content Include="css\bootstrap-4.6.0-dist\css\pages\Login.css" />
     <Content Include="css\bootstrap-4.6.0-dist\css\pages\Reservation1.css" />
+    <Content Include="JS\Cookies.js" />
+    <Content Include="JS\resa.js" />
     <Content Include="reservation1.html" />
     <Content Include="Web.config" />
   </ItemGroup>

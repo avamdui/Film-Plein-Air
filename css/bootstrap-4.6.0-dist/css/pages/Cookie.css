@@ -1,0 +1,55 @@
+﻿* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.CookieBanner {
+    min-height : 150px;
+    background-color: dimgray;
+    color: #fff;
+    overflow: hidden;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.CookieBanner-desc {
+    float: left;
+    width: 75%;
+}
+
+.CookieBanner-actionContainer {
+    float: right;
+}
+
+.CookieBanner-infoLink,
+.CookieBanner-button {
+    color: inherit;
+    font-size: inherit;
+}
+
+.CookieBanner-button {
+    background: transparent;
+    border: 1px solid currentColor;
+    margin-left: 1.5em;
+    padding: .25em .5em;
+}
+
+@media screen and (max-width: 48em) {
+    .CookieBanner-desc {
+        float: none;
+        width: 100%;
+    }
+
+    .CookieBanner-desc {
+        margin-bottom: 1em;
+    }
+}

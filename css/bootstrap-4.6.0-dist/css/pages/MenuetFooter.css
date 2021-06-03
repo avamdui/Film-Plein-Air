@@ -4,6 +4,8 @@ body {
     background-color: #e6e6e6;
     margin-left: 40px;
     margin-right: 40px;
+    font-family: 'Aleo', serif;
+
 }
 /* Jumbotron*/
 
@@ -32,7 +34,10 @@ body {
         display:none;
     }
     .footer {
-        display:none;
+        position: relative;
+        bottom: 0px;
+        margin: 15px;
+        border-radius:15px;
     }
 }
 

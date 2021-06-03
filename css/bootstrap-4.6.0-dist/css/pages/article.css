@@ -1,0 +1,17 @@
+﻿
+.article {
+    margin: 15px;
+    border-radius: 15px;
+}
+hr 
+{
+    border-color:white;
+    color:white;
+}
+
+.jumbotron {
+    background-image: url('../../../../img/Jumbotron.jpg');
+    border-bottom: 2px solid lightgrey;
+    text-shadow: 5px 5px 5px black;
+    opacity: 0.9;
+}
