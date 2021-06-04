@@ -45,8 +45,8 @@
 
     <!-- MovieCard -->
 
-    <div class="container mt-5">
-        <div class="row justify-content-center">
+    <section class="container mt-5">
+        <article class="row justify-content-center">
             <div class="card movie_card">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe src="https://www.youtube.com/embed/cMRqlDBkdwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -73,15 +73,21 @@
                     </div>
                     <span class="movie_info float-right"><i class="fas fa-star"></i> 9 / 10</span>
                     <br /><br />
-                    <a href="#" class="btn btn-info"> Séance : le 05 aout 2021 18h00 </a>
-                    <a href="reservation1.html" class="btn  btn-c stretched-link">Réserver</a>
+                    <div class="row">
+                              <div class="col-sm-6">
+                                  <a href="reservation1.html" class="btn btn-info"> Séance : le 05 aout 2021 18h00</a>
+                                </div>
+                              <div class="col-sm-6">
+                                  <a href="reservation1.html" class="float-sm-right btn btn-c">Réserver</a>
+                              </div>
+                    </div>
                 </div>
             </div>
             <br /><br /> <br /><br />
 
+        </article>
+    </section>
 
-
-</body>
 
 <!-- FOOTER -->
 <footer class="footer row fixed-bottom bg-dark p-2">

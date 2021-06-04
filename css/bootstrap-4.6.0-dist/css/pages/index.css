@@ -4,8 +4,8 @@
 /* Bouton en savoir plus */
 .btn-c {
     background-image: url('../../../../img/bg-time.png');
-    background-size: 126px 40px;
-    width: 126px;
+    background-size: 130px 40px;
+    width: 130px;
     justify-content:end;
     
 
@@ -13,7 +13,7 @@
 
     .btn-c:hover {
         background-image: url('../../../../img/bg-time-hover.png');
-        background-size: 126px 40px;
+        background-size: 130px 40px;
         justify-content: end;
         
     }

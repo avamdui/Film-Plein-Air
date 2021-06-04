@@ -1,5 +1,11 @@
-﻿
-.article {
+﻿.cat {
+    padding:15px;
+}
+.card-img {
+    padding: 15px;
+    width: inherit;
+}
+section {
     margin: 15px;
     border-radius: 15px;
 }

@@ -73,19 +73,18 @@ img {
         color: #8e24aa;
     }
 
+.btn {
+    margin:10px;
+}
 .btn-c {
     background-image: url('../../../../img/bg-time.png');
     background-size: 126px 40px;
     width: 126px;
-    position:absolute;
-    bottom:20px;
-    right:20px;
+
 }
 
     .btn-c:hover {
         background-image: url('../../../../img/bg-time-hover.png');
         background-size: 126px 40px;
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
+
     }
